@@ -1,1 +1,1 @@
-### Link your theory in here
+[Read More](docs/6.Channels.pdf)
