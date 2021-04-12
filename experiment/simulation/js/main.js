@@ -20,6 +20,12 @@ bottom_ids = {
   T: ["bottom_l", "bottom_m"],
 };
 
+curve_ids = {
+  L: "curve_l",
+  M: "curve_m",
+  T: "curve_t",
+};
+
 let updateFlow = () => {
   flow = document.getElementById("dropdown1").value;
   let top = document.getElementById(top_ids[flow]);
@@ -71,6 +77,10 @@ let resetEverything = () => {
     ids = document.getElementById(top_ids[id]);
     ids.setAttribute("offset", 0);
   }
+  for (id in curve_ids) {
+    ids = document.getElementById(curve_ids[id]);
+    ids.setAttribute("offset", 0);
+  }
   for (i in bottom_ids) {
     bottom_ids[i].forEach((id) => {
       ids = document.getElementById(id);
@@ -87,7 +97,7 @@ let startAn = async () => {
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
   const flow = document.getElementById("dropdown1").value;
-
+  asyncMove(curve_ids[flow]);
   document.getElementById("startbutton").disabled = false;
   document.getElementById("resetbutton").disabled = false;
 };
