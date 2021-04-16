@@ -23,7 +23,7 @@
           type="button"
           class="action-button btn btn-lg"
           id="startbutton"
-          onclick="startAn()"
+          onclick="startAnimation()"
         >
           Start
         </button>
@@ -33,7 +33,7 @@
       <label for="customRange1" class="form-label">Control flow speed</label>
       <input type="range" class="form-range" id="water-flow" />
     </div>
-    <div class="select1">
+    <div class="dropdowncontainer">
       <label for="customRange1" class="form-label">Choose flow type</label>
       <select
         id="dropdown1"
@@ -41,9 +41,9 @@
         aria-label=".form-select-lg example"
         onchange="resetEverything(); updateFlow();"
       >
-        <option value="L">L</option>
-        <option value="M">M</option>
-        <option value="T">T</option>
+        <option value="L">Trapezoidal</option>
+        <option value="M">Rectangular</option>
+        <option value="T">Triangular</option>
       </select>
     </div>
     <svg
@@ -213,7 +213,6 @@
       </g>
     </svg>
     <!-- Js files -->
-    <script src="./js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
       integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
@@ -224,5 +223,6 @@
       integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
