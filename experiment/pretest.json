@@ -1,18 +1,19 @@
 [
   {
-    "question": "1.This is a sample question:",
+    "question": "1. What is the use of notch:",
     "answers": {
-      "a": "This is a sample answer A",
-      "b": "This is a sample answer B"
+      "a": "To measure rate of flow through a small channel",
+      "b": "To measure pressure of liquid through the small channel",
+      "c": "To measure the velocity of liquid through the small channel"
     },
     "correctAnswer": "a"
   },
   {
-    "question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+    "question": "2. In a trapeziodal channel, when is the discharge maximum?",
     "answers": {
-      "a": "<img src='images/1b.png'>",
-      "b": "<img src='images/1a.png'>",
-      "c": "<img src='images/1c.PNG'>"
+      "a": "top width is twice the sloping side",
+      "b": "top width equals sloping side",
+      "c": "half of top width equals the sloping side"
     },
     "correctAnswer": "c"
   }
