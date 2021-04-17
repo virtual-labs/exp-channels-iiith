@@ -1,34 +1,34 @@
-let sleep = (ms) => {
+const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
 
-let arrayRemove = (arr, value) => {
+const arrayRemove = (arr, value) => {
   return arr.filter(function (ele) {
     return ele != value;
   });
 };
 
-let top_ids = {
+const top_ids = {
   L: "top_l",
   M: "top_m",
   T: "top_t",
 };
 
-let bottom_ids = {
+const bottom_ids = {
   L: ["bottom_m", "bottom_t"],
   M: ["bottom_l_m", "bottom_t"],
   T: ["bottom_l", "bottom_m"],
 };
 
-let curve_ids = {
+const curve_ids = {
   L: "curve_l",
   M: "curve_m",
   T: "curve_t",
 };
 
-let updateFlow = () => {
-  let flow = document.getElementById("dropdown1").value;
-  let top = document.getElementById(top_ids[flow]);
+const updateFlow = () => {
+  const flow = document.getElementById("dropdown1").value;
+  const top = document.getElementById(top_ids[flow]);
   top.setAttribute("offset", 1);
   bottom_ids[flow].forEach((x) => {
     let bottom = document.getElementById(x);
@@ -37,7 +37,7 @@ let updateFlow = () => {
 };
 
 let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
-  let path = document.getElementById(id);
+  const path = document.getElementById(id);
   while (true) {
     let animation_speed = document.getElementById("water-flow").value;
     animation_speed = animation_speed * 0.0002;
@@ -49,8 +49,8 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   }
 };
 
-let resetEverything = () => {
-  let flow_ids = ["curve_l", "curve_m", "curve_t"];
+const resetEverything = () => {
+  const flow_ids = ["curve_l", "curve_m", "curve_t"];
   flow_ids.forEach((element) => {
     let path = document.getElementById(element);
     path.setAttribute("offset", 0);
@@ -72,7 +72,7 @@ let resetEverything = () => {
   updateFlow();
 };
 
-let startAnimation = async () => {
+const startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
