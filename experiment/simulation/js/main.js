@@ -1,3 +1,4 @@
+"use strict";
 const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
@@ -55,15 +56,15 @@ const resetEverything = () => {
     let path = document.getElementById(element);
     path.setAttribute("offset", 0);
   });
-  for (id in top_ids) {
+  for (let id in top_ids) {
     let ids = document.getElementById(top_ids[id]);
     ids.setAttribute("offset", 0);
   }
-  for (id in curve_ids) {
+  for (let id in curve_ids) {
     let ids = document.getElementById(curve_ids[id]);
     ids.setAttribute("offset", 0);
   }
-  for (i in bottom_ids) {
+  for (let i in bottom_ids) {
     bottom_ids[i].forEach((id) => {
       let ids = document.getElementById(id);
       ids.setAttribute("offset", 0);
