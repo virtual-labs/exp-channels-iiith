@@ -1,10 +1,10 @@
 [
   {
-    "question": "1. What is the use of notch:",
+    "question": "1. In a rectangular channel, when is the discharge maximum?",
     "answers": {
-      "a": "To measure rate of flow through a small channel",
-      "b": "To measure pressure of liquid through the small channel",
-      "c": "To measure the velocity of liquid through the small channel"
+      "a": "when hydraulic mean depth is half of flow depth",
+      "b": "when hydraulic mean depth is twice of flow depth",
+      "c": "when hydraulic mean depth equals flow depth"
     },
     "correctAnswer": "a"
   },
