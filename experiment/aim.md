@@ -2,4 +2,4 @@ Determination of the ﬂow rate of water in open channels is signiﬁcant in man
 
 To determine the coefficient of discharge (Cod) of a Broad crested weir. 
 
-[Read more about the experiment in detail.](docs/6.Channels.pdf)
+To read about the Aim of the experiment click [here](docs/6.Channels.pdf)

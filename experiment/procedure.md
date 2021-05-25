@@ -8,4 +8,4 @@ Procedure for the experiment is as follows:
 6. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
 
 
-[Read More](docs/6.Channels.pdf)
+To read about the Procedure of the experiment click [here](docs/6.Channels.pdf)
