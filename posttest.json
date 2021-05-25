@@ -1,0 +1,20 @@
+[
+  {
+    "question": "1. In a rectangular channel, when is the discharge maximum?",
+    "answers": {
+      "a": "when hydraulic mean depth is half of flow depth",
+      "b": "when hydraulic mean depth is twice of flow depth",
+      "c": "when hydraulic mean depth equals flow depth"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "2. In a trapeziodal channel, when is the discharge maximum?",
+    "answers": {
+      "a": "top width is twice the sloping side",
+      "b": "top width equals sloping side",
+      "c": "half of top width equals the sloping side"
+    },
+    "correctAnswer": "c"
+  }
+]
