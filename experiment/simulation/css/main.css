@@ -12,7 +12,7 @@
   transform: translate(-50%, -50%);
 }
 
-.dropdowncontainer {
+/*.dropdowncontainer {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +21,7 @@
 
 .slidecontainer {
   width: 40%; /* Width of the outside container */
-  margin-top: 20px;
+ /* margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -39,3 +39,4 @@
 .action-button:hover {
   background-color: #a9a9a9;
 }
+*/
