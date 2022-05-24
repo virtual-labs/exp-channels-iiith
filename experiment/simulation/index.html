@@ -26,7 +26,8 @@
          <div id="apparatus" class="column has-text-centered is-2-desktop is-5-tablet is-5-mobile apparatus">
             <div class="v-datalist-container">
                <div class="v-datalist-title"  >Input Parameters</div>
-                 <div class="v-select">
+                  <br/>
+                  <div class="v-select">
                      <select id="dropdown1" class="v-select" aria-label=".form-select-lg example"
                      onchange="resetEverything(); updateFlow();">
                         <option >Choose Channel Type</option>
@@ -35,28 +36,18 @@
                         <option value="T">Triangular</option>
                      </select>
                   </div>
+                  <br/>
                   <div class="v-slider">
                      <label for="customRange1" class="form-label">Control flow speed</label>
-                     <input type="range" class="v-slider-full" id="water-flow" />
+                     <input type="range" class="v-slider" id="water-flow" />
                   </div>
             </div>
          </div>
-      <!-- -->
-         <div  class="column has-text-centered is-2-desktop is-5-tablet is-5-mobile observations">
-            <div class="v-datalist-container">
-               <div class="v-datalist-title">Observations</div>
-               <!---cantiliver starts-->
-               <div   class="" style="width: 100%; display: none;" >
-               </div>
-               <div   class="" style="width: 100%; display: none;">
-               </div>
-            </div>
-         </div>
-	 <!-- -->
-         <div class="column has-text-centered is-6-desktop is-10-tablet is-10-mobile simulation v-canvas-container" id="container">
+      
+         <div class="column has-text-centered is-9-desktop is-10-tablet is-10-mobile simulation v-canvas-container" id="container">
             <div class="columns">
                <div class="column">
-                   <svg viewBox="-30 -100 1280 586" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                   <svg viewBox="0 40 1200 586" version="1.1" xmlns="http://www.w3.org/2000/svg">
                      <g id="#000000ff"> 
                         <defs>
                            <linearGradient id="half_grad3" x1="0%" y1="0%" x2="100%" y2="100%">
