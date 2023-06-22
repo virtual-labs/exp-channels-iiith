@@ -1,0 +1,20 @@
+[
+  {
+    "question": "1. What is the use of notch?",
+    "answers": {
+      "a": "To measure rate of flow through a small channel",
+      "b": "To measure pressure of liquid through the small channel",
+      "c": "To measure the velocity of liquid through the small channel"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "2. What is the use of a current meter?",
+    "answers": {
+      "a": "To measure the pressure",
+      "b": "To measure the volume",
+      "c": "To measure the velocity"
+    },
+    "correctAnswer": "c"
+  }
+]

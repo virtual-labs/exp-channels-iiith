@@ -1,0 +1,8 @@
+
+/home/runner/work/exp-channels-iiith/exp-channels-iiith/experiment/simulation/js/main.js
+   6:7   warning  'arrayRemove' is assigned a value but never used     no-unused-vars
+  42:10  warning  Unexpected constant condition                        no-constant-condition
+  76:7   warning  'startAnimation' is assigned a value but never used  no-unused-vars
+
+✖ 3 problems (0 errors, 3 warnings)
+
