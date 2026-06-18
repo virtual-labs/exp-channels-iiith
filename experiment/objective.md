@@ -1,0 +1,5 @@
+- To study the principles of flow measurement in open channels.
+- To determine the discharge of water using sharp-crested rectangular and triangular weirs.
+- To determine the coefficient of discharge of the weirs.
+- To investigate the relationship between the head over the weir crest and the discharge.
+- To compare the theoretical and experimental values of discharge.
