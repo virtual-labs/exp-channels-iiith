@@ -1,0 +1,1 @@
+The primary aim of this experiment is to study the measurement of discharge in an open channel using sharp-crested weirs. The experiment demonstrates the relationship between the head of water over the weir crest and the corresponding discharge, providing practical understanding of open-channel flow measurement techniques used in hydraulic engineering.

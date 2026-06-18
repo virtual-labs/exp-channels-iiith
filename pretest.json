@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Open channel flow differs from pipe flow because:",
+      "answers": {
+        "a": "Open channel flow occurs under atmospheric pressure with a free surface",
+        "b": "Open channel flow has no velocity",
+        "c": "Pipe flow has a free surface",
+        "d": "Gravity has no effect on open channel flow"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Open channel flow has a free surface exposed to the atmosphere and is primarily driven by gravity.",
+        "b": "Incorrect. Open channel flow possesses velocity and momentum.",
+        "c": "Incorrect. Pipe flow generally runs full and has no free surface.",
+        "d": "Incorrect. Gravity is the driving force for open channel flow."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A current meter is primarily used to measure:",
+      "answers": {
+        "a": "Pressure",
+        "b": "Velocity of flow",
+        "c": "Discharge coefficient",
+        "d": "Fluid density"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Pressure is measured using pressure gauges and manometers.",
+        "b": "Correct. A current meter is used to determine the velocity of flow in channels and rivers.",
+        "c": "Incorrect. Discharge coefficient is obtained from calibration and experiments.",
+        "d": "Incorrect. Density is a fluid property and is not measured using a current meter."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. A notch is commonly used to:",
+      "answers": {
+        "a": "Measure pressure in a pipe",
+        "b": "Increase flow velocity",
+        "c": "Measure discharge through a small channel",
+        "d": "Determine viscosity"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Pressure measurements require pressure-measuring devices.",
+        "b": "Incorrect. A notch is mainly intended for flow measurement.",
+        "c": "Correct. Notches are commonly used to determine discharge in small open channels.",
+        "d": "Incorrect. Viscosity is measured using viscometers."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which type of energy primarily drives flow in open channels?",
+      "answers": {
+        "a": "Pressure energy",
+        "b": "Electrical energy",
+        "c": "Chemical energy",
+        "d": "Gravitational energy"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Pressure energy is dominant in pressurized pipe flow.",
+        "b": "Incorrect. Electrical energy does not drive channel flow.",
+        "c": "Incorrect. Chemical energy is unrelated to fluid motion in channels.",
+        "d": "Correct. Open channel flow is driven mainly by gravity."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which parameter is defined as the ratio of flow area to wetted perimeter?",
+      "answers": {
+        "a": "Hydraulic mean depth",
+        "b": "Critical depth",
+        "c": "Specific energy",
+        "d": "Channel slope"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Hydraulic mean depth (hydraulic radius) is the ratio of flow area to wetted perimeter.",
+        "b": "Incorrect. Critical depth corresponds to minimum specific energy.",
+        "c": "Incorrect. Specific energy is the total energy per unit weight relative to the channel bottom.",
+        "d": "Incorrect. Channel slope is the bed inclination."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which type of channel cross-section is most commonly used in irrigation canals?",
+      "answers": {
+        "a": "Circular",
+        "b": "Elliptical",
+        "c": "Trapezoidal",
+        "d": "Triangular"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Circular sections are mainly used in pipes.",
+        "b": "Incorrect. Elliptical sections are uncommon for irrigation channels.",
+        "c": "Correct. Trapezoidal channels are economical and widely used in irrigation systems.",
+        "d": "Incorrect. Triangular sections are not commonly adopted for irrigation canals."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Critical flow in an open channel occurs when the Froude number is:",
+      "answers": {
+        "a": "Less than 1",
+        "b": "Equal to 1",
+        "c": "Greater than 1",
+        "d": "Equal to 0"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. A Froude number less than one indicates subcritical flow.",
+        "b": "Correct. Critical flow corresponds to a Froude number equal to unity.",
+        "c": "Incorrect. A Froude number greater than one indicates supercritical flow.",
+        "d": "Incorrect. Zero Froude number would imply no flow velocity."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. In uniform flow through a channel, the energy slope is:",
+      "answers": {
+        "a": "Greater than the bed slope",
+        "b": "Less than the bed slope",
+        "c": "Equal to the bed slope",
+        "d": "Independent of the bed slope"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Uniform flow implies balance between gravity and friction.",
+        "b": "Incorrect. The energy slope does not differ from the bed slope under uniform flow conditions.",
+        "c": "Correct. In uniform flow, bed slope, water surface slope, and energy slope are equal.",
+        "d": "Incorrect. The energy slope is directly related to the channel slope."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which dimensionless number is most important in the analysis of open channel flow?",
+      "answers": {
+        "a": "Reynolds number",
+        "b": "Mach number",
+        "c": "Euler number",
+        "d": "Froude number"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Reynolds number indicates laminar or turbulent flow but is less significant for open channel similarity.",
+        "b": "Incorrect. Mach number applies to compressible flows.",
+        "c": "Incorrect. Euler number relates pressure forces to inertial forces.",
+        "d": "Correct. Froude number governs the behavior and similarity of open channel flows."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

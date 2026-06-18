@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In a rectangular channel, the hydraulic mean depth is equal to half the flow depth when:",
+      "answers": {
+        "a": "The discharge is minimum",
+        "b": "The discharge is maximum",
+        "c": "The velocity becomes zero",
+        "d": "The flow becomes turbulent"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This condition corresponds to the most efficient section rather than minimum discharge.",
+        "b": "Correct. A rectangular channel conveys maximum discharge when the hydraulic mean depth is half the flow depth.",
+        "c": "Incorrect. The flow velocity remains finite under this condition.",
+        "d": "Incorrect. Turbulence is not determined by this geometric condition."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. For the most economical rectangular channel section, the width is equal to:",
+      "answers": {
+        "a": "Twice the depth",
+        "b": "Half the depth",
+        "c": "Equal to the depth",
+        "d": "Three times the depth"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. In the most economical rectangular channel, the width is twice the depth of flow.",
+        "b": "Incorrect. Such a section does not minimize wetted perimeter.",
+        "c": "Incorrect. Equal width and depth do not provide maximum hydraulic efficiency.",
+        "d": "Incorrect. This ratio is not associated with the most economical section."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The flow in an open channel is called critical when the Froude number is:",
+      "answers": {
+        "a": "Less than 1",
+        "b": "Greater than 1",
+        "c": "Equal to 1",
+        "d": "Equal to 0"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This corresponds to subcritical flow.",
+        "b": "Incorrect. This corresponds to supercritical flow.",
+        "c": "Correct. Critical flow occurs when the Froude number is equal to unity.",
+        "d": "Incorrect. Zero Froude number would imply no flow."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In a trapezoidal channel, the most economical section is obtained when:",
+      "answers": {
+        "a": "Bottom width is twice the depth",
+        "b": "Half the top width equals the sloping side",
+        "c": "Top width equals the bottom width",
+        "d": "The side slopes are vertical"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This criterion applies to rectangular channels.",
+        "b": "Correct. For a most economical trapezoidal section, half the top width is equal to the length of one sloping side.",
+        "c": "Incorrect. Equal top and bottom widths correspond to rectangular sections.",
+        "d": "Incorrect. Vertical sides do not define the most economical trapezoidal section."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. The specific energy of flow in an open channel is measured with respect to:",
+      "answers": {
+        "a": "The free surface",
+        "b": "Atmospheric pressure level",
+        "c": "The channel bed",
+        "d": "The centerline of flow"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The free surface is not used as the reference datum.",
+        "b": "Incorrect. Atmospheric pressure level is not the reference for specific energy.",
+        "c": "Correct. Specific energy is the energy per unit weight measured relative to the channel bed.",
+        "d": "Incorrect. The centerline is not used as the datum."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. A hydraulic jump generally occurs when flow changes from:",
+      "answers": {
+        "a": "Subcritical to supercritical",
+        "b": "Uniform to laminar",
+        "c": "Turbulent to laminar",
+        "d": "Supercritical to subcritical"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Hydraulic jumps involve the reverse transition.",
+        "b": "Incorrect. Uniformity and laminarity are unrelated concepts.",
+        "c": "Incorrect. Hydraulic jumps are not characterized by this change.",
+        "d": "Correct. Hydraulic jumps occur when high-velocity supercritical flow changes to low-velocity subcritical flow.",
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "question": "7. Which equation is commonly used to estimate velocity in uniform open channel flow?",
+      "answers": {
+        "a": "Bernoulli equation",
+        "b": "Euler equation",
+        "c": "Manning equation",
+        "d": "Continuity equation"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Bernoulli's equation represents energy conservation.",
+        "b": "Incorrect. Euler's equation describes motion of ideal fluids.",
+        "c": "Correct. Manning's equation is widely used for computing velocity and discharge in open channels.",
+        "d": "Incorrect. Continuity equation relates discharge and velocity but does not directly estimate velocity."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. The Froude number represents the ratio of:",
+      "answers": {
+        "a": "Viscous force to inertial force",
+        "b": "Pressure force to gravity force",
+        "c": "Inertial force to viscous force",
+        "d": "Inertial force to gravitational force"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. This ratio is associated with Reynolds number.",
+        "b": "Incorrect. Froude number is not based on pressure forces.",
+        "c": "Incorrect. This corresponds to Reynolds number concepts.",
+        "d": "Correct. Froude number compares inertial forces with gravitational forces in open channel flow."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. At critical depth, the specific energy is:",
+      "answers": {
+        "a": "Maximum",
+        "b": "Zero",
+        "c": "Minimum",
+        "d": "Infinite"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Critical flow does not correspond to maximum specific energy.",
+        "b": "Incorrect. Specific energy is always positive for flowing water.",
+        "c": "Correct. Critical depth corresponds to the minimum specific energy for a given discharge.",
+        "d": "Incorrect. Specific energy does not become infinite."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
